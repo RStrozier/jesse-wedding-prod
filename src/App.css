@@ -235,6 +235,10 @@
   object-fit: cover;
 }
 
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
 :-webkit-full-screen video {
   width: 100vw !important;
   height: 100vh !important;
