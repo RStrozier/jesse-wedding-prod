@@ -235,16 +235,20 @@
   object-fit: cover;
 }
 
-.video-player:-webkit-full-screen {
-  width: 100vw;
-  height: 100vh;
-  object-fit: contain;
+:-webkit-full-screen video {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  object-fit: contain !important;
 }
 
-.video-player:fullscreen {
-  width: 100vw;
-  height: 100vh;
-  object-fit: contain;
+:fullscreen video {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  object-fit: contain !important;
 }
 
 .watch-btn {

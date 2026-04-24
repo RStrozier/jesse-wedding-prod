@@ -201,6 +201,7 @@ export default function App() {
                 <video
                   ref={videoRef}
                   controls
+                  playsInline
                   className="video-player"
                 >
                   <source src="/Jesse & Emily Prod.mp4" type="video/mp4" />
