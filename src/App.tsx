@@ -203,7 +203,7 @@ export default function App() {
                   controls
                   className="video-player"
                 >
-                  <source src="/Jesse & Emily 4.mov" type="video/mp4" />
+                  <source src="/Jesse & Emily Prod.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
