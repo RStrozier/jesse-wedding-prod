@@ -235,6 +235,18 @@
   object-fit: cover;
 }
 
+.video-player:-webkit-full-screen {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.video-player:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+
 .watch-btn {
   display: inline-flex;
   align-items: center;
